@@ -37,11 +37,11 @@ try:
 
     print("\n=== Analysis Results ===\n")
     
-    print(f"Total Log Entries: {total_lines}")
-    print(f"Information : {info}")
-    print(f"Warnings  : {warnings}")
-    print(f"Errors   : {errors}")
-    print(f"Failed Logins : {failed_logins}")
+    print(f"Total Log Entries : {total_lines}")
+    print(f"Information       : {info}")
+    print(f"Warnings          : {warnings}")
+    print(f"Errors            : {errors}")
+    print(f"Failed Logins     : {failed_logins}")
     
 except FileNotFoundError:
     print("\nError: File not found.")
