@@ -29,6 +29,11 @@ try:
         if "WARNING" in line:
             warnings += 1
 
+        if "ERROR" in line:
+            errors += 1
+
+        if "FAILED LOGIN" in line:
+            failed_logins += 1
 
     print("\n=== Analysis Results ===\n")
     
